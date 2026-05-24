@@ -1,0 +1,149 @@
+.container {
+  padding: 2.5rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  color: var(--sereno-blue-medium);
+  margin-bottom: 1rem;
+}
+
+.header h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  color: var(--sereno-gray);
+  font-size: 0.9rem;
+}
+
+.dropzone {
+  border: 2px dashed #e2e8f0;
+  border-radius: 1.5rem;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease;
+  color: var(--sereno-gray);
+}
+
+.dropzone:hover {
+  border-color: var(--sereno-blue-vibrant);
+  background: var(--sereno-gray-light);
+}
+
+.dropzone span {
+  font-weight: 600;
+  color: var(--sereno-blue-dark);
+}
+
+.dropzone small {
+  font-size: 0.75rem;
+}
+
+.previewSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+@media (max-width: 640px) {
+  .previewSection {
+    grid-template-columns: 1fr;
+  }
+}
+
+.previewImage {
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+}
+
+.previewImage img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.remove {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--sereno-blue-medium);
+  font-weight: 600;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.resultCard {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.resultHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.resultBody {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.dataField {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.dataField span {
+  color: var(--sereno-gray);
+}

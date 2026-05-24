@@ -1,0 +1,102 @@
+.simulator {
+  padding: 4rem 0;
+  background: linear-gradient(to bottom, transparent, var(--sereno-gray-light), transparent);
+}
+
+.card {
+  padding: 3rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.header p {
+  color: var(--sereno-gray);
+  font-size: 1.1rem;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.inputGroup label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--sereno-blue-dark);
+}
+
+.select {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--sereno-gray-light);
+  background: white;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+}
+
+.select:focus {
+  border-color: var(--sereno-blue-vibrant);
+}
+
+.result {
+  text-align: center;
+  padding: 2rem;
+  background: var(--sereno-blue-dark);
+  border-radius: 1rem;
+  color: white;
+}
+
+.label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  opacity: 0.7;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.currency {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.amount {
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+.info {
+  font-size: 0.8rem;
+  opacity: 0.6;
+}

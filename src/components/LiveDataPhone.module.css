@@ -1,0 +1,251 @@
+.liveData {
+  background: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+
+@media (max-width: 968px) {
+  .grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
+.badge {
+  display: inline-block;
+  color: var(--sereno-blue-vibrant);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
+}
+
+.text h2 {
+  margin-bottom: 1.5rem;
+}
+
+.text p {
+  font-size: 1.25rem;
+  color: var(--sereno-gray);
+  margin-bottom: 2.5rem;
+}
+
+.featureList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (max-width: 968px) {
+  .featureList {
+    align-items: center;
+  }
+}
+
+.featureItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 700;
+  color: var(--sereno-blue-dark);
+}
+
+.featureIcon {
+  width: 36px;
+  height: 36px;
+  background: var(--sereno-gray-light);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--sereno-blue-medium);
+}
+
+.phoneContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.phoneFrame {
+  width: 320px;
+  height: 640px;
+  background: #0f172a;
+  border-radius: 3rem;
+  padding: 12px;
+  box-shadow: 0 50px 100px -20px rgba(0, 0, 0, 0.25);
+  position: relative;
+  border: 4px solid #334155;
+}
+
+@media (max-width: 640px) {
+  .phoneFrame {
+    transform: scale(0.8);
+    margin: -4rem 0;
+  }
+}
+
+.phoneFrame::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 30px;
+  background: #0f172a;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  z-index: 2;
+}
+
+.phoneScreen {
+  background: #f8fafc;
+  height: 100%;
+  border-radius: 2.5rem;
+  overflow: hidden;
+  padding: 2.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.appHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background: var(--sereno-blue-vibrant);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.appHeader strong {
+  display: block;
+  font-size: 0.9rem;
+}
+
+.appHeader span {
+  font-size: 0.7rem;
+  color: var(--sereno-gray);
+}
+
+.liveChart {
+  background: white;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.chartHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  color: #ef4444;
+}
+
+.chartHeader span {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--sereno-gray);
+  flex: 1;
+}
+
+.pulseValue {
+  font-size: 0.9rem;
+  color: #ef4444;
+}
+
+.waveform {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  height: 60px;
+}
+
+.bar {
+  flex: 1;
+  background: #ef4444;
+  border-radius: 2px;
+  animation: wave 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes wave {
+  from { opacity: 0.4; transform: scaleY(0.8); }
+  to { opacity: 1; transform: scaleY(1); }
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.statCard {
+  background: white;
+  padding: 1.25rem;
+  border-radius: 1.25rem;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+}
+
+.statCard span {
+  display: block;
+  font-size: 0.7rem;
+  color: var(--sereno-gray);
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.statCard strong {
+  font-size: 1.25rem;
+  display: block;
+  color: var(--sereno-blue-dark);
+}
+
+.statCard small {
+  font-size: 0.6rem;
+  color: var(--sereno-gray);
+}
+
+.alertBox {
+  margin-top: auto;
+  background: var(--sereno-green-light);
+  padding: 0.75rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  color: #065f46;
+  font-weight: 700;
+}
+
+.alertDot {
+  width: 8px;
+  height: 8px;
+  background: var(--sereno-green);
+  border-radius: 50%;
+  animation: blink 2s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}

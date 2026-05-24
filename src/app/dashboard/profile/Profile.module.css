@@ -1,0 +1,143 @@
+.pageContainer {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 3rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  color: #64748b;
+  font-size: 1.1rem;
+}
+
+.profileCard {
+  background: #0f172a;
+  border-radius: 16px;
+  padding: 2.5rem;
+  border: 1px solid #1e293b;
+  box-shadow: 0 4px 15px -3px rgba(0, 0, 0, 0.3);
+  margin-bottom: 2rem;
+}
+
+.profileHeader {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #1e293b;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  background: #f0f9ff;
+  color: #0284c7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.profileInfo h2 {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 0.25rem;
+}
+
+.profileInfo p {
+  color: #64748b;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  background: #fef3c7;
+  color: #d97706;
+  text-transform: capitalize;
+  margin-top: 0.5rem;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+@media (max-width: 640px) {
+  .formGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.formGroup label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #94a3b8;
+}
+
+.input {
+  padding: 0.75rem 1rem;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: white;
+  outline: none;
+  transition: border-color 0.2s ease;
+  background: #020617;
+}
+
+.input:focus {
+  border-color: #38bdf8;
+  background: #0f172a;
+}
+
+.readOnly {
+  background: #1e293b;
+  color: #64748b;
+  cursor: not-allowed;
+  border-color: #1e293b;
+}
+
+.submitButton {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 1rem;
+  background: var(--sereno-blue-dark);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.submitButton:hover {
+  background: #1e293b;
+}

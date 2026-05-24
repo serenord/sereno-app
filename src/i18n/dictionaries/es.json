@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "howItWorks": "Cómo Funciona",
+    "clarity": "Claridad Total",
+    "plans": "Planes",
+    "blog": "Blog"
+  },
+  "hero": {
+    "badge": "Health-as-a-Service en RD",
+    "title1": "Deja de pedir favores y elimina las remesas ciegas.",
+    "title2": "SERENO es tu presencia profesional en RD.",
+    "desc1": "Enviar dinero no garantiza que tus padres compren la receta correcta o asistan al médico. Eso es una <strong>remesa ciega</strong>. Tampoco es justo cargar a un familiar con esa responsabilidad.",
+    "desc2": "Tu suscripción a SERENO cubre la infraestructura logística: coordinamos citas, entregamos medicamentos a domicilio y los capacitamos en salud. <strong>Tú pagas la gestión; si se necesitan insumos, consultas o personal extra, te enviamos el costo real de ventanilla para que fondees con total control.</strong> Sin márgenes ocultos.",
+    "btnPrimary": "Unirse a la lista de espera",
+    "btnSecondary": "Ver planes",
+    "trust1": "Gestión integral e IoT",
+    "trust2": "Sin contratos de permanencia",
+    "trust3": "Auditoría médica en <24h",
+    "trustedBy": "+380 dominicanos en la diáspora ya confían en SERENO",
+    "cardTitle": "Custodia Activa",
+    "cardDesc": "Abuela María - Signos Sincronizados"
+  },
+  "howItWorks": {
+    "title1": "De la distancia de tu trabajo,",
+    "title2": "a la salud verificada de los tuyos en RD",
+    "subtitle": "SERENO te ofrece la infraestructura logística transfronteriza definitiva. Sin intermediarios ni sorpresas.",
+    "step1": {
+      "title": "1. Eliges tu suscripción",
+      "text": "Suscripción mensual fija que cubre la coordinación completa, el delivery y la capacitación en salud. Pagas desde el extranjero de forma digital con control absoluto de tus fondos."
+    },
+    "step2": {
+      "title": "2. Auditamos tu dinero y la ARS",
+      "text": "Antes de gastar un peso en laboratorios o médicos, peleamos por la cobertura del seguro (ARS) de tu familiar en RD. Te pasamos el costo exacto de ventanilla si se requiere un copago de insumos o recetas; nosotros no añadimos sobreprecios."
+    },
+    "step3": {
+      "title": "3. Ejecutamos en el terreno",
+      "text": "Llevamos los medicamentos a su puerta, medimos sus signos vitales con dispositivos Bluetooth y capacitamos al paciente y sus convivientes. Todo ejecutado por profesionales de salud, sin molestar a parientes."
+    },
+    "step4": {
+      "title": "4. Cierras el loop de la duda",
+      "text": "En menos de 24 horas recibes una auditoría digital completa con fotos de la entrega, ubicación GPS y datos biométricos validados. El familiar que te hace un favor no te envía un reporte corporativo; nosotros sí."
+    },
+    "cta": "Únete a la lista de espera"
+  },
+  "clarity": {
+    "title": "Cuentas Claras: El Modelo Financiero de SERENO",
+    "subtitle": "No somos un seguro médico ni una aseguradora. Somos tus ojos, tus manos y tus auditores en República Dominicana.",
+    "subscription_title": "Lo que cubre tu suscripción mensual fija ($39.99/mes)",
+    "subscription_desc": "La mensualidad sostiene la infraestructura física y tecnológica en RD: Coordinación médica experta, delivery logístico de recetas a la puerta, toma de signos vitales con dispositivos Bluetooth IoT propios de SERENO, capacitación técnica en salud al paciente y reportes digitales con fotografía y GPS en menos de 24 horas.",
+    "costs_title": "Lo que corre por tu cuenta (A costo real de ventanilla)",
+    "costs_desc": "NINGÚN plan de SERENO absorbe o costea medicamentos, insumos médicos, consultas de especialistas o enfermeras fijas a domicilio. Si tu familiar necesita una receta o un laboratorio, SERENO audita la factura con su ARS, te envía el presupuesto neto de costo real de farmacia, tú envías los fondos exactos y nosotros ejecutamos. <strong>Cobramos $0 comisión sobre los medicamentos. Nuestro valor es el control total de tu dinero.</strong>"
+  },
+  "blogSection": {
+    "badge": "Control vs. Distancia",
+    "title1": "Tu dinero trabaja en el extranjero.",
+    "title2": "Asegura que se convierta en salud real en RD.",
+    "subtitle": "No somos un periódico de noticias. Somos el manual de auditoría para la diáspora que se cansó de enviar dinero a ciegas.",
+    "cta_primary": "Dejar de enviar a ciegas hoy",
+    "cta_secondary": "Ver las 7 Guías de Control Financiero",
+    "read_more": "Leer Auditoría",
+    "post1": {
+      "tag": "Auditoría Financiera",
+      "title": "La mentira piadosa: Por qué tu madre te dice \"ya compré las pastillas\" aunque no sea cierto",
+      "excerpt": "El 67% de los padres en RD ocultan que no compran los medicamentos para no \"cargar\" económicamente a sus hijos en USA. Descubre cómo la remesa ciega daña su salud.",
+      "date": "Auditoría de Fondos"
+    },
+    "post2": {
+      "tag": "Foso Emocional",
+      "title": "El costo oculto de pedir favores: Por qué el tiempo libre de tu primo te sale más caro que un profesional",
+      "excerpt": "Llamar a un pariente en Santo Domingo para que lleve a tu padre al médico rompe relaciones familiares y carece de reportes. El favor no te envía ubicación GPS ni fotos de la receta.",
+      "date": "Cero Compromisos"
+    },
+    "post3": {
+      "tag": "Optimización ARS",
+      "title": "Cuánto cuesta realmente cuidar a un padre diabético en RD (Y cómo estás desaprovechando tu seguro local)",
+      "excerpt": "Las farmacias y clínicas facturan a costo completo cuando no se auditan ni validan las coberturas de la ARS desde el extranjero. Conoce cómo dejar de pagar copagos duplicados optimizando tus beneficios.",
+      "date": "Protección Patrimonial"
+    }
+  },
+  "app_retention": {
+    "routine_title": "Mi Día Sereno",
+    "routine_subtitle": "Completa tus tareas para que tu familia vea tu progreso",
+    "med_taken_btn": "Marcar Medicamento como Tomado",
+    "water_counter": "Has tomado {{amount}}ml de agua hoy",
+    "blog_reward": "¡Lectura completada! Sumaste puntos de salud",
+    "fake_call_title": "Llamada Entrante de SERENO",
+    "fake_call_subtitle": "Hora de tu medicamento de la presión",
+    "reorder_alert_title": "Reabastecimiento Automático Activado",
+    "reorder_alert_desc": "Quedan pocas pastillas en stock. SERENO ya está auditando la ARS local para pasarte el costo neto real.",
+    "share_whatsapp_btn": "Compartir progreso con mi {{kinship}}",
+    "share_whatsapp_msg": "¡Hola! Hoy he completado mis tareas de salud en SERENO con un día perfecto. 🎉🩺",
+    "share_social_btn": "Compartir en redes"
+  }
+}

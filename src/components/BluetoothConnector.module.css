@@ -1,0 +1,130 @@
+.card {
+  padding: 2rem;
+  background: white;
+  border: 1px solid #e2e8f0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.header h3 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.statusDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #cbd5e1;
+}
+
+.searching {
+  background: #3b82f6;
+  animation: pulse 1.5s infinite;
+}
+
+.connected {
+  background: #10b981;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.2); opacity: 0.7; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.content {
+  text-align: center;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.idle, .searching, .connected {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.idle p, .searching p {
+  color: var(--sereno-gray);
+  max-width: 250px;
+}
+
+.icon {
+  color: var(--sereno-blue-medium);
+}
+
+.spin {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.deviceInfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: var(--sereno-gray-light);
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 100%;
+  text-align: left;
+}
+
+.deviceInfo div {
+  display: flex;
+  flex-direction: column;
+}
+
+.deviceInfo strong {
+  color: var(--sereno-blue-dark);
+}
+
+.deviceInfo span {
+  font-size: 0.75rem;
+  color: var(--sereno-green);
+  font-weight: 600;
+}
+
+.livePulse {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--sereno-blue-medium);
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.pulseIcon {
+  animation: heartBeat 1s infinite;
+}
+
+@keyframes heartBeat {
+  0% { transform: scale(1); }
+  15% { transform: scale(1.3); }
+  30% { transform: scale(1); }
+  45% { transform: scale(1.15); }
+  60% { transform: scale(1); }
+}
+
+.footer {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--sereno-gray);
+  opacity: 0.7;
+}

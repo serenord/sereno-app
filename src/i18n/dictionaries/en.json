@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "howItWorks": "How It Works",
+    "clarity": "Full Transparency",
+    "plans": "Plans",
+    "blog": "Blog"
+  },
+  "hero": {
+    "badge": "Health-as-a-Service in DR",
+    "title1": "Stop asking for favors and eliminate blind remittances.",
+    "title2": "SERENO is your professional presence in the DR.",
+    "desc1": "Sending money doesn't guarantee your parents will buy the correct prescription or visit the doctor. That's a <strong class='text-white'>blind remittance</strong>. It's also unfair to burden a relative with that responsibility.",
+    "desc2": "Your SERENO subscription covers the logistics infrastructure: we coordinate appointments, deliver medications to their door, and provide health education. <strong class='text-white'>You pay for the management; if supplies or consultations are needed, we send you the real over-the-counter cost so you can fund it with total control.</strong> No hidden margins.",
+    "btnPrimary": "Join the Waitlist",
+    "btnSecondary": "View Plans",
+    "trust1": "End-to-End Management & IoT",
+    "trust2": "No long-term contracts",
+    "trust3": "Medical audit in <24h",
+    "trustedBy": "Over 380 Dominicans in the diaspora already trust SERENO",
+    "cardTitle": "Active Custody",
+    "cardDesc": "Grandma Maria - Vitals Synchronized"
+  },
+  "howItWorks": {
+    "title1": "From the distance of your job,",
+    "title2": "to the verified health of your family in the DR",
+    "subtitle": "SERENO offers you the ultimate cross-border logistics infrastructure. No middlemen, no surprises.",
+    "step1": {
+      "title": "1. Choose your subscription",
+      "text": "A fixed monthly subscription that covers full coordination, delivery, and health education. Pay digitally from abroad with absolute control over your funds."
+    },
+    "step2": {
+      "title": "2. We audit your money and the ARS",
+      "text": "Before spending a dime on labs or doctors, we fight for your family's local insurance (ARS) coverage. We give you the exact over-the-counter cost if a copay is required; we never add markups."
+    },
+    "step3": {
+      "title": "3. We execute on the ground",
+      "text": "We deliver medications to their door, measure their vitals with Bluetooth devices, and educate the patient and their caregivers. All executed by healthcare professionals, without bothering relatives."
+    },
+    "step4": {
+      "title": "4. Close the loop of doubt",
+      "text": "In less than 24 hours, you receive a full digital audit with delivery photos, GPS location, and validated biometric data. The relative doing you a favor doesn't send a corporate report; we do."
+    },
+    "cta": "Join the Waitlist"
+  },
+  "clarity": {
+    "title": "Clear Accounts: SERENO's Financial Model",
+    "subtitle": "We are not a health insurance. We are your eyes, your hands, and your auditors in the Dominican Republic.",
+    "subscription_title": "What your fixed monthly subscription covers ($39.99/mo)",
+    "subscription_desc": "The monthly fee sustains the physical and technological infrastructure in the DR: Expert medical coordination, logistical delivery of prescriptions to their door, vital signs monitoring with SERENO's own Bluetooth IoT devices, technical health training for the patient, and digital reports with photos and GPS in less than 24 hours.",
+    "costs_title": "What's on your dime (At true over-the-counter cost)",
+    "costs_desc": "NO SERENO plan absorbs or pays for medications, medical supplies, specialist consultations, or dedicated home nurses. If your family member needs a prescription or a lab test, SERENO audits the bill with their ARS (local insurance), sends you the exact net pharmacy cost, you send the exact funds, and we execute. <strong>We charge $0 commission on medications. Our value is total control over your money.</strong>"
+  },
+  "blogSection": {
+    "badge": "Control vs. Distance",
+    "title1": "Your money works abroad.",
+    "title2": "Ensure it turns into real health in the DR.",
+    "subtitle": "We are not a news outlet. We are the audit manual for the diaspora tired of sending money blindly.",
+    "cta_primary": "Stop sending blindly today",
+    "cta_secondary": "View the 7 Financial Control Guides",
+    "read_more": "Read Audit",
+    "post1": {
+      "tag": "Financial Audit",
+      "title": "The white lie: Why your mother says \"I already bought the pills\" even if it's not true",
+      "excerpt": "67% of parents in the DR hide that they don't buy their medications so they don't financially \"burden\" their kids in the US. Discover how the blind remittance damages their health.",
+      "date": "Funds Audit"
+    },
+    "post2": {
+      "tag": "Emotional Moat",
+      "title": "The hidden cost of asking for favors: Why your cousin's free time costs more than a professional",
+      "excerpt": "Calling a relative in Santo Domingo to take your dad to the doctor breaks family relationships and lacks reporting. A favor doesn't send you a GPS location or photos of the prescription.",
+      "date": "Zero Strings Attached"
+    },
+    "post3": {
+      "tag": "ARS Optimization",
+      "title": "How much it really costs to care for a diabetic parent in the DR (And how your local insurance is robbing you)",
+      "excerpt": "Pharmacies and clinics bill full cost because no one audits ARS coverages from abroad. Learn how to stop paying duplicate copays.",
+      "date": "Wealth Protection"
+    }
+  }
+}

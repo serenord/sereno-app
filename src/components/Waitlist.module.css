@@ -1,0 +1,119 @@
+.waitlist {
+  background: var(--sereno-gray-light);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+@media (max-width: 968px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.text h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .text h2 {
+    font-size: 2.25rem;
+  }
+}
+
+.text p {
+  font-size: 1.2rem;
+  color: var(--sereno-gray);
+  margin-bottom: 2rem;
+}
+
+.benefits {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.benefits li {
+  font-weight: 700;
+  color: var(--sereno-blue-dark);
+}
+
+.formCard {
+  padding: 3rem;
+  background: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.field label {
+  font-weight: 800;
+  font-size: 0.8rem;
+  color: var(--sereno-gray);
+  text-transform: uppercase;
+}
+
+.field input, .field select {
+  padding: 1rem;
+  border-radius: 0.75rem;
+  border: 2px solid var(--sereno-gray-mid);
+  font-family: inherit;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.field input:focus, .field select:focus {
+  outline: none;
+  border-color: var(--sereno-green);
+}
+
+.fieldRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .fieldRow {
+    grid-template-columns: 1fr;
+  }
+}
+
+.successCard {
+  padding: 5rem;
+  text-align: center;
+}
+
+.successCard h2 {
+  color: var(--sereno-green);
+  margin-bottom: 1rem;
+}
+
+.successIcon {
+  font-size: 4rem;
+  display: block;
+  margin-top: 2rem;
+}
+
+.privacyNote {
+  font-size: 0.85rem;
+  color: var(--sereno-gray);
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
