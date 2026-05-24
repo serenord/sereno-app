@@ -18,10 +18,40 @@ export default function EmisorActionsClient({ emisorId, currentPlan }: { emisorI
     setLoading(true);
     setFeedback(null);
     try {
-      const { error } = await supabase
-        .from("profiles")
-        .update({ plan_status: "active", plan_type: selectedPlanType })
-        .eq("id", emisorId);
+      // Mapear los valores de la UI a los permitidos por la BD
+      let dbPlanTier = "basico";
+      if (selectedPlanType === "vital") dbPlanTier = "estandar";
+      if (selectedPlanType === "concierge") dbPlanTier = "premium";
+
+      // Intentar actualizar la suscripción existente
+      const { data: existingSub, error: checkError } = await supabase
+        .from("subscriptions")
+        .select("id")
+        .eq("emisor_id", emisorId)
+        .maybeSingle();
+
+      if (checkError) throw checkError;
+
+      let error;
+      if (existingSub) {
+        // Actualizar
+        const { error: updateError } = await supabase
+          .from("subscriptions")
+          .update({ status: "activo", plan_tier: dbPlanTier })
+          .eq("emisor_id", emisorId);
+        error = updateError;
+      } else {
+        // Insertar si no tiene
+        const { error: insertError } = await supabase
+          .from("subscriptions")
+          .insert([{ 
+            emisor_id: emisorId, 
+            status: "activo", 
+            plan_tier: dbPlanTier,
+            plan_price: selectedPlanType === 'esencial' ? 19.99 : selectedPlanType === 'vital' ? 39.99 : 64.99 
+          }]);
+        error = insertError;
+      }
       
       if (error) throw error;
       setFeedback({ type: "success", msg: "Plan activado correctamente." });

@@ -12,7 +12,7 @@ export default async function PatientProfilePage({ params }: { params: { id: str
   // Fetching minimal: solo datos de identificación
   const { data: patient, error } = await supabaseAdmin
     .from('beneficiaries')
-    .select('id, full_name, account_status, emisor:users!beneficiaries_emisor_id_fkey(full_name, id)')
+    .select('id, full_name, account_status, emisor:users(full_name, id)')
     .eq('id', params.id)
     .single()
 
